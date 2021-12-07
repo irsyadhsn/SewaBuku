@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In | Sewa Buku</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styleregislogin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="row mx-auto">
+        <div class="col-10 mx-auto" id="base">
+            <div class="row">
+                <div id="landing-text" class="col-8">
+                    <div class="row text-light fw-bold pt-3 ps-4 text-shadow" id="big-text">
+                        Semua Buku<br />Tersedia <br />dalam<br />
+                        Website<br />
+                        Kami.
+                    </div>
+                    <div class="row shadowed box-logo" id="image"><img src="img/logo putih.png" /></div>
+                </div>
+                <div id="login-form" class="text-light col-4">
+                    <div class="row fs-3 pt-3 justify-content-center">Sewa Buku</div>
+                    <hr />
+                    <form action="payment.html" name="form-login" id="login" action="login.html">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="username" placeholder="Username" name="username"
+                                required />
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="pass" placeholder="Password" name="pass"
+                                required />
+                        </div>
+                        <a id="misc" href="index.html">
+                            <p>
+                                Don't have
+                                account?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </p>
+                        </a>
+                        <a id="misc" href="#">
+                            <p>Forget Password</p>
+                        </a>
+
+                        <button type="submit" class="btn-submit btn-primary" style="border-color: white">Submit</button>
+
+                    </form>
+                    <button id="fb" class="login"
+                        style="color: rgba(109, 133, 255, 1); border-color: rgba(109, 133, 255, 1)">Login with
+                        Facebook</button>
+                    <button id="ggl" class="login"
+                        style="color: rgba(255, 122, 122, 1); border-color: rgba(255, 122, 122, 1)">Login with
+                        Google</button>
+                    <button id="twt" class="login"
+                        style="color: rgba(0, 159, 209, 1); border-color: rgba(0, 159, 209, 1)">Login with
+                        Twitter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script></script>
+    <svg height="0" xmlns="http://www.w3.org/2000/svg">
+        <filter id="drop-shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+            <feOffset dx="6" dy="6" result="offsetblur" />
+            <feFlood flood-color="rgba(0,0,0,1)" />
+            <feComposite in2="offsetblur" operator="in" />
+            <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </svg>
+</body>
+
+</html>

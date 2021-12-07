@@ -1,0 +1,131 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.bg-custom-1 {
+  background-color: #112031;
+}
+.point {
+  color: #ffff;
+}
+.title {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+}
+.check1 {
+  padding-right: 10px;
+}
+p {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.rect1 {
+  position: absolute;
+  width: 563px;
+  height: 173px;
+  left: 630px;
+  top: 450px;
+
+  background: #112031;
+  border-radius: 37px;
+}
+
+.annual {
+  position: absolute;
+  width: 352px;
+  height: 52px;
+  left: 707px;
+  top: 490px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+
+  color: #fffcfc;
+}
+
+.price1 {
+  position: absolute;
+  width: 459px;
+  height: 38px;
+  left: 707px;
+  top: 540px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+
+  color: #1dae53;
+}
+
+.bestvalue {
+  position: absolute;
+  width: 196px;
+  height: 35px;
+  left: 997px;
+  top: 490px;
+  padding-top: 5px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  background: #00a6ff;
+  color: #ffffff;
+}
+
+.rect2 {
+  position: absolute;
+  width: 563px;
+  height: 173px;
+  left: 630px;
+  top: 670px;
+
+  background: #112031;
+  border-radius: 37px;
+}
+
+.monthly {
+  position: absolute;
+  width: 352px;
+  height: 52px;
+  left: 707px;
+  top: 710px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+
+  color: #fffcfc;
+}
+
+.price2 {
+  position: absolute;
+  width: 459px;
+  height: 38px;
+  left: 707px;
+  top: 760px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+
+  color: #1dae53;
+}

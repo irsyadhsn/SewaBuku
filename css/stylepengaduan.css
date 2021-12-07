@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.bg-custom-1{
+    background-color: #112031;
+}
+.point{
+    color:#ffff;
+}
+.title{
+    margin-top: 50px;
+}
+.opsi{
+    position: relative;
+    width: 900px;
+    height: 50px;
+    border-radius: 5px;
+    left: 100px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #112031;
+    color: #ffff;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.keluhan{
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: none;
+    width: 900px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 100px;
+    color: #ffff;
+    background-color: #112031;
+}
+p{
+    margin-left: 100px;
+}
+.btn-dark{
+    background-color: #00A6FF;
+    color: #ffff;
+    border: 0;
+    padding: 5 5 5 5;
+}
+.alert-warning{
+    background-color: #1DAE53;
+    color: #ffff;
+    width: 900px;
+    left: 100px;
+}
+.btn-loading{
+    background-color: #00A6FF;
+}
+.btn{
+    margin-left: 100px;
+}
+.dropdown-item{
+    color:#112031;
+    margin-right: 10px;
+}

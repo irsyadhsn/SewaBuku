@@ -1,0 +1,247 @@
+body {
+  font-family: "" Montserrat ", sans-serif;", sans-serif;
+}
+.bg-custom-1 {
+  background-color: #112031;
+}
+.point {
+  color: #ffff;
+}
+.title {
+  margin-top: 50px;
+}
+.btn-dark {
+  background-color: #00a6ff;
+  color: #ffff;
+  border: 0;
+  padding: 5 5 5 5;
+}
+.alert-warning {
+  background-color: #1dae53;
+  color: #ffff;
+  width: 900px;
+  left: 100px;
+}
+.btn-loading {
+  background-color: #00a6ff;
+}
+.btn {
+  margin-left: 100px;
+}
+.dropdown-item {
+  color: #112031;
+  margin-right: 10px;
+}
+.btn-group-vertical {
+  width: 200px;
+  height: 400px;
+  float: left;
+  margin-right: 100px;
+}
+.btn-outline-dark {
+  color: rgb(0, 0, 0);
+  border-color: #9366dc;
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #9366dc;
+  border-color: #9366dc;
+}
+.btn-check:focus + .btn-outline-dark,
+.btn-outline-dark:focus {
+  box-shadow: 0 0 0 0.25rem rgba(88, 30, 136, 0.5);
+}
+.btn-check:checked + .btn-outline-dark,
+.btn-check:active + .btn-outline-dark,
+.btn-outline-dark:active,
+.btn-outline-dark.active,
+.btn-outline-dark.dropdown-toggle.show {
+  color: #fff;
+  background-color: #9366dc;
+  border-color: #9366dc;
+}
+.btn-check:checked + .btn-outline-dark:focus,
+.btn-check:active + .btn-outline-dark:focus,
+.btn-outline-dark:active:focus,
+.btn-outline-dark.active:focus,
+.btn-outline-dark.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(88, 30, 136, 0.5);
+}
+.btn-outline-dark:disabled,
+.btn-outline-dark.disabled {
+  color: #9366dc;
+  background-color: transparent;
+}
+.form {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+.background {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  background: #112031;
+  border-radius: 5px;
+}
+#floatingInput {
+  width: 40%;
+  margin-left: 70px;
+}
+label {
+  margin-left: 70px;
+}
+/* Rectangle 43 */
+
+.kotak {
+  position: absolute;
+  width: 334px;
+  height: 520px;
+  left: 1336px;
+  top: 400px;
+
+  background: #242f41;
+  border: 2px solid #1dae53;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 122px 1px #000000;
+  border-radius: 26px;
+}
+
+/* Rp.350.000,00 */
+
+.harga {
+  position: absolute;
+  width: 459px;
+  height: 38px;
+  left: 1000px;
+  top: 340px;
+
+  font-family: "" Montserrat ", sans-serif;", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 33px;
+
+  color: #1dae53;
+}
+
+/* 12 month plan */
+
+.paket {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  left: 1000px;
+  top: 280px;
+
+  font-family: "" Montserrat ", sans-serif;", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+
+/* Total Payment */
+
+.judul {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  left: 1000px;
+  top: 210px;
+
+  font-family: "" Montserrat ", sans-serif;", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
+
+/* Total : */
+
+.total {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  left: 1000px;
+  top: 310px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 37px;
+
+  color: #ffffff;
+}
+/* Bayar */
+
+.bayar {
+  position: absolute;
+  width: 72px;
+  height: 29px;
+  left: 1094px;
+  top: 390px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+/* Cancel */
+
+.cancel {
+  position: absolute;
+  width: 86px;
+  height: 29px;
+  left: 1094px;
+  top: 450px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+/* Rectangle 44 */
+
+.kotakh {
+  position: absolute;
+  width: 240px;
+  height: 48px;
+  left: 1000px;
+  top: 390px;
+
+  background: #16bf55;
+  border-radius: 8px;
+}
+
+/* Rectangle 45 */
+
+.kotakm {
+  position: absolute;
+  width: 240px;
+  height: 48px;
+  left: 1000px;
+  top: 450px;
+
+  border: 2px solid #d92d2d;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+center {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}

@@ -1,0 +1,111 @@
+body {
+  background-image: url("../img/BG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+#base {
+  background-color: #fc8383;
+  background-image: url("../img/BG2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  margin-top: 3rem;
+}
+#base2 {
+  background-color: rgba(6, 20, 35, 0.8);
+  height: 650px;
+  margin-top: 2rem;
+}
+
+#image {
+  width: 13%;
+  top: 10rem;
+}
+#login-form {
+  background-color: rgba(6, 20, 35, 0.8);
+  height: 600px;
+}
+#misc {
+  text-decoration: none;
+  color: #ffffff;
+}
+.text-shadow {
+  text-shadow: 5px 5px 2px #000000;
+}
+.shadowed {
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+#big-text {
+  font-size: 50px;
+  letter-spacing: 5px;
+  line-height: 110%;
+}
+#register button {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 12px;
+}
+#register input {
+  background-color: rgba(208, 223, 231, 1);
+  height: 3rem;
+}
+#btn-balik {
+  text-decoration: none;
+  color: white;
+}
+.box-logo {
+  position: relative;
+  bottom: 50px;
+  left: 15px;
+}
+hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid #ffffff;
+  opacity: 100%;
+}
+#login {
+  margin-top: 60px;
+}
+#login,
+#login-form button {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+#login input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto;
+}
+
+#login,
+#login-form .login {
+  background-color: transparent;
+}
+
+#fb {
+  margin-top: 80px;
+}
+
+#ggl,
+#twt {
+  margin-top: 30px;
+}
+
+p {
+  font-size: 12px;
+  float: left;
+  margin-left: 23px;
+}
