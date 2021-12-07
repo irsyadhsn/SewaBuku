@@ -26,7 +26,7 @@
                 <div id="login-form" class="text-light col-4">
                     <div class="row fs-3 pt-3 justify-content-center">Sewa Buku</div>
                     <hr />
-                    <form action="payment.html" name="form-login" id="login" action="login.html">
+                    <form name="form-login" id="login" action="login.html">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="username" placeholder="Username" name="username"
                                 required />
@@ -35,29 +35,30 @@
                             <input type="password" class="form-control" id="pass" placeholder="Password" name="pass"
                                 required />
                         </div>
-                        <a id="misc" href="index.html">
+                        <a href="index.html">
                             <p>
                                 Don't have
                                 account?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </p>
                         </a>
-                        <a id="misc" href="#">
+                        <a href="#">
                             <p>Forget Password</p>
                         </a>
-
-                        <button type="submit" class="btn-submit btn-primary" style="border-color: white">Submit</button>
-
+                        <button formaction="payment.html" type="submit" class="btn-submit btn-primary" id="login2"
+                            style="border-color: white">Login as Member</button>
+                        <button formaction="katalogADMIN.html" type="submit" id="login2" class="login"
+                            style="background-color: rgba(41, 204, 86, 1); border-color: white">Login as Admin</button>
                     </form>
-                    <button id="fb" class="login"
-                        style="color: rgba(109, 133, 255, 1); border-color: rgba(109, 133, 255, 1)">Login with
-                        Facebook</button>
-                    <button id="ggl" class="login"
-                        style="color: rgba(255, 122, 122, 1); border-color: rgba(255, 122, 122, 1)">Login with
-                        Google</button>
-                    <button id="twt" class="login"
-                        style="color: rgba(0, 159, 209, 1); border-color: rgba(0, 159, 209, 1)">Login with
-                        Twitter</button>
+                    <div class="text-light col-4">
+                        <button id="fb" class="login"
+                            style="color: rgba(255, 122, 122, 1); border-color: rgba(255, 122, 122, 1)">Login with
+                            Facebook</button>
+                        <button id="ggl" class="login"
+                            style="color: rgba(0, 159, 209, 1); border-color: rgba(0, 159, 209, 1)">Login with
+                            Google</button>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

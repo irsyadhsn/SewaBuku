@@ -25,14 +25,12 @@ body {
   width: 13%;
   top: 10rem;
 }
+
 #login-form {
   background-color: rgba(6, 20, 35, 0.8);
   height: 600px;
 }
-#misc {
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .text-shadow {
   text-shadow: 5px 5px 2px #000000;
 }
@@ -96,12 +94,12 @@ hr {
 }
 
 #fb {
-  margin-top: 80px;
+  margin-top: 160px;
 }
 
 #ggl,
-#twt {
-  margin-top: 30px;
+#login2 {
+  margin-top: 20px;
 }
 
 p {

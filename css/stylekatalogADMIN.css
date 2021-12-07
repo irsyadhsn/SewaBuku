@@ -64,9 +64,14 @@ li {
   height: 100%px;
 }
 .button {
-  background: url(Group\ 10.png) no-repeat;
+  background: url("../img/Group\ 10.png") no-repeat;
   cursor: pointer;
   width: 350px;
   height: 250px;
   border: none;
+}
+.imageedit {
+  position: absolute;
+  width: 40px;
+  left: 165px;
 }

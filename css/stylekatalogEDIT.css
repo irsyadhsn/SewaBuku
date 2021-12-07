@@ -1,0 +1,120 @@
+body {
+  font-family: "" Montserrat ", sans-serif;", sans-serif;
+}
+.bg-custom-1 {
+  background-color: #112031;
+}
+.point {
+  color: #ffff;
+}
+.title {
+  margin-top: 50px;
+}
+.btn-dark {
+  background-color: #00a6ff;
+  color: #ffff;
+  border: 0;
+  padding: 5 5 5 5;
+}
+.alert-warning {
+  background-color: #1dae53;
+  color: #ffff;
+  width: 900px;
+  left: 100px;
+}
+.btn-loading {
+  background-color: #00a6ff;
+}
+.btn {
+  margin-left: 100px;
+}
+.dropdown-item {
+  color: #112031;
+  margin-right: 10px;
+}
+center {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+#id_peserta {
+  background-color: transparent;
+  color: black;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #00000 1px;
+  padding: 3px 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+#input {
+  float: left;
+  font-family: Montserrat, sans-serif, sans-serif;
+}
+#btn {
+  height: 40px;
+  width: 90px;
+}
+#isi {
+  margin-left: 250px;
+}
+#myfile {
+  opacity: 0;
+}
+.file {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background: #112031;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
